@@ -1,0 +1,30 @@
+<%- include("../partials/header") %>
+<%- include("../partials/navbar") %>
+
+
+<section> 
+
+    <h1>This is My Shop App</h1>
+
+</section>
+
+
+<div class="container products" >
+   
+
+    <%for(let product of products){%>
+        <div class="card" style="width: 18rem;">
+            <img src="<%= product.img %>" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><%= product.name %></h5>
+              <p class="card-text"><%= product.desc.substring(0,70) %></p>
+              <a href="#" class="btn btn-info">Go somewhere</a>
+            </div>
+          </div>
+    <%}%>
+
+</div>
+
+
+<%- include("../partials/footer") %>
+    
