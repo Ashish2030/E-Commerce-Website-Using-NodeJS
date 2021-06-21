@@ -1,0 +1,67 @@
+<%- include("../partials/header") %>
+<%- include("../partials/navbar") %>
+
+
+<div class="container" style="margin-top:8rem;">
+
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="card" style="width: 30rem;">
+          <img src="<%= product.img %>" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"><%= product.name %></h5>
+            <p class="card-text"><%= product.desc %></p>
+            <h5 class="card-title">$ <%= product.price %></h5>
+            <a href="#" class="btn btn-primary">Buy Now</a>
+            <a href="#" class="btn btn-info">Add To Cart</a>
+            <a href="/products/<%=product._id%>/edit" class="btn btn-secondary">Edit</a>
+              
+            <form method="POST" action="/products/<%= product._id %>?_method=DELETE" class="mt-2">
+              <button class="btn btn-danger">Delete</button>
+            </form>
+  
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <h2>Leave a Review</h2>
+        <form method="POST" action="/products/<%= product._id %>/review">
+          <div class="mb-3">
+            <label class="form-label" for="rating">Rating</label>
+            <input class="form-control" type="range" min="1" max="5" name="review[rating]" id="rating">
+          </div>
+          <div class="mb-3">
+            <label class="form-label" for="body">Review</label>
+            <textarea class="form-control" name="review[body]" id="body" cols="30" rows="4"></textarea>
+          </div>
+
+          <button class="btn btn-success">Submit</button>
+
+        </form>
+
+        <div class="mt-5">
+          <%for(let review of product.reviews){%>
+            <div class="card mb-4">
+              <div class="card-header">
+                User
+              </div>
+              <div class="card-body">
+                <h6 class="card-title"> <strong>Rating :</strong>  <%= review.rating %></h6>
+                <p class="card-text"> <strong>Review :</strong><%= review.body %></p>
+               
+              </div>
+            </div>
+          <%}%>
+        </div>
+
+  
+      </div>
+
+      </div>
+
+</div>
+
+
+
+
+<%- include("../partials/footer") %>

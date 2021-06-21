@@ -1,0 +1,33 @@
+<%- include("../partials/header") %>
+<%- include("../partials/navbar") %>
+
+<div class="container" style="margin-top:5rem;width:60%;">
+    <h1>Edit Product</h1>
+    
+    <form method="POST" action="/products/<%= product._id%>?_method=PATCH" >
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name" name="product[name]" placeholder="Product Name" value="<%= product.name %>">
+          
+        </div>
+        <div class="mb-3">
+          <label for="image" class="form-label">Image</label>
+          <input type="text" class="form-control" id="image" name="product[img]" placeholder="Product Image Link" value="<%= product.img %>">
+        </div>
+        <div class="mb-3">
+            <label for="price" class="form-label">Price</label>
+            <input type="number" class="form-control" id="price" name="product[price]" placeholder="Product Price" value="<%= product.price %>">
+          </div>
+          <div class="mb-3">
+            <label for="desc" class="form-label">Description</label>
+            <textarea class="form-control" name="product[desc]" id="desc" cols="30" rows="5"><%= product.desc %></textarea>
+          </div>
+       
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+</div>
+
+
+
+
+<%- include("../partials/footer") %>
