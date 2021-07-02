@@ -2,13 +2,19 @@ const express = require('express');
 const router = express.Router();
 const Product = require('../../models/product');
 const Review = require('../../models/review');
+const { isLoggedIn } = require('../../middleware');
 
 
 
-router.post('/products/:id/review', async(req, res) => {
+router.post('/products/:id/review',isLoggedIn,async(req, res) => {
 
     const product = await Product.findById(req.params.id);
-    const review = new Review(req.body.review);
+
+    const { rating, body } = req.body.review;
+
+    const { username } = req.user;
+
+    let review = new Review({rating:rating,body:body,username:username});
 
     product.reviews.push(review);
 
@@ -20,3 +26,6 @@ router.post('/products/:id/review', async(req, res) => {
 
 
 module.exports = router;
+
+
+

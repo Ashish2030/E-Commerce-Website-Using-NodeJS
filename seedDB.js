@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
 const Product = require('./models/product');
+
 const arr = [
     {
         name: 'iphone',
@@ -39,7 +40,11 @@ const arr = [
     },
 
 ]
+
+
+
 function seedDB() {
+    
     Product.insertMany(arr)
         .then(() => {
             console.log("Data Seeded");
@@ -47,6 +52,7 @@ function seedDB() {
     .catch(err => {
             console.log(err);
     })
+
 }
 
 module.exports = seedDB;

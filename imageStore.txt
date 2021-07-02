@@ -1,0 +1,6 @@
+
+FUTURE WORK
+
+1.multer is used as middleware to upload images
+2.Cloudinary 
+3.Add Flash functionality to display pop up msg (package : connect-flash)

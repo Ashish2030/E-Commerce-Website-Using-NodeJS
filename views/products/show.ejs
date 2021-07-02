@@ -13,7 +13,11 @@
             <p class="card-text"><%= product.desc %></p>
             <h5 class="card-title">$ <%= product.price %></h5>
             <a href="#" class="btn btn-primary">Buy Now</a>
-            <a href="#" class="btn btn-info">Add To Cart</a>
+
+            <form method="POST" action="/user/<%= product._id %>/cart" style="display: inline;">
+              <button class="btn btn-success">Add To Cart</button>
+            </form>
+
             <a href="/products/<%=product._id%>/edit" class="btn btn-secondary">Edit</a>
               
             <form method="POST" action="/products/<%= product._id %>?_method=DELETE" class="mt-2">
@@ -41,9 +45,10 @@
 
         <div class="mt-5">
           <%for(let review of product.reviews){%>
+
             <div class="card mb-4">
-              <div class="card-header">
-                User
+              <div class="card-header text-capitalize">
+                <%=review.username%>
               </div>
               <div class="card-body">
                 <h6 class="card-title"> <strong>Rating :</strong>  <%= review.rating %></h6>

@@ -1,0 +1,63 @@
+<%- include("../partials/header") %>
+<%- include("../partials/navbar") %>
+
+
+<div class="container" style="margin-top:8rem;">
+
+    <div class="row">
+        <div class="col-lg-8">
+            <div class="row">
+                <%for(let item of cart){%>
+                 <div class="col-lg-12">
+                 <div class="card mb-3" >
+                     <div class="row g-0">
+                       <div class="col-md-4">
+                         <img src="<%= item.img%>" alt="..." style="max-width:250px">
+                       </div>
+                       <div class="col-md-8">
+                         <div class="card-body">
+                           <h5 class="card-title">$ <%= item.price%></h5>
+                           <p class="card-text"><%= item.desc%></p>
+                           <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                           <form method="POST" action="/cart/<%=currentUser._id%>/item/<%=item._id%>?_method=DELETE">
+                               <button class="btn btn-sm btn-danger">remove</button>
+                           </form>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                 </div>
+               <% }%>
+             </div>
+        </div>
+        <div class="col-lg-4">
+            <ol class="list-group list-group-numbered">
+                <%let total=0%>
+                <%for(let item of cart){%>
+                    <li class="list-group-item"><%=item.name%> - $ <%=item.price%></li>
+                    <%total+=item.price%>
+                <%}%>
+               
+            </ol>
+
+            <ul class="list-group">
+                <li class="list-group-item fw-bold">Total : <%=total%></li>
+            </ul>
+
+            <div class="mb-3 mt-3">
+                <a href="#" class="btn btn-success">Buy Now</a>
+            </div>
+            
+           
+
+        </div>
+    </div>
+
+   
+   
+</div>
+
+
+
+
+<%- include("../partials/footer") %>
