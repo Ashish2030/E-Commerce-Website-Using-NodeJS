@@ -58,7 +58,7 @@ https://user-images.githubusercontent.com/61516051/124337667-6d120280-dbc1-11eb-
 
 | <img src = "https://github.com/Ashish2030/E-Commerce-Website-Using-NodeJS/blob/master/public/css/Assets/a.jpg" width = 500 height = 300> | <img src = "https://github.com/Ashish2030/E-Commerce-Website-Using-NodeJS/blob/master/public/css/Assets/_DSC0397.jpg" width = 500 height = 300> 
 | :------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------: 
-|                    [Ashish Kumar](https://https://github.com/Ashish2030)\*                   |     [Riya Panhotra](https://github.com/sriinampudi)\*     |
+|                    [Ashish Kumar](https://github.com/Ashish2030)\*                   |     [Riya Panhotra](https://github.com/Riya-Panhotra)\*     |
 
 ## 
 <h1 align="left">𝐎𝐮𝐫 𝐯𝐚𝐥𝐮𝐚𝐛𝐥𝐞 𝐂𝐨𝐧𝐭𝐫𝐢𝐛𝐮𝐭𝐨𝐫𝐬👩‍💻👨‍💻 :</h1>
