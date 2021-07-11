@@ -35,7 +35,7 @@
 </p> -->
 
 
-[![GitHub last commit](https://img.shields.io/github/last-commit/ashish2030/E-Commerce-Website-Using-NodeJS)](https://github.com/ashish2030/E-Commerce-Website-Using-NodeJS/commits/master)
+&nbsp;[![GitHub last commit](https://img.shields.io/github/last-commit/ashish2030/E-Commerce-Website-Using-NodeJS)](https://github.com/ashish2030/E-Commerce-Website-Using-NodeJS/commits/master)
 [![GitHub repo size](https://img.shields.io/github/repo-size/ashish2030/E-Commerce-Website-Using-NodeJS)](https://github.com/ashish2030/E-Commerce-Website-Using-NodeJS/archive/master.zip)
 
 
@@ -70,6 +70,8 @@ https://user-images.githubusercontent.com/61516051/124337667-6d120280-dbc1-11eb-
 <h1 align="left">𝐎𝐩𝐞𝐧 𝐒𝐨𝐮𝐫𝐜𝐞 𝐏𝐫𝐨𝐠𝐫𝐚𝐦𝐬 𝐰𝐞 𝐡𝐚𝐯𝐞 𝐛𝐞𝐞𝐧 𝐚 𝐩𝐚𝐫𝐭 𝐨𝐟:</h1>
 
 <p align="center">
-<a href="https://letsgrowmore.in/soc/"><img src="https://github.com/Ashish2030/E-Commerce-Website-Using-NodeJS/blob/master/public/css/Assets/lgmsoc.png" width="25%"></a>
+<a href="https://letsgrowmore.in/soc/"><img src="https://github.com/Ashish2030/E-Commerce-Website-Using-NodeJS/blob/master/public/css/Assets/lgmsoc.png" width="25%"></a>&nbsp;&nbsp;&nbsp;
+<a href="https://letsgrowmore.in/soc/"><img src="https://github.com/Ashish2030/E-Commerce-Website-Using-NodeJS/blob/master/public/css/Assets/output-onlinepngtools.png" width="18%"></a>
+	
 </p>
 
