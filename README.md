@@ -34,16 +34,21 @@
 :octocat:🌟ᴛʜɪꜱ ɪꜱ ᴀ ᴀᴘᴘʟɪᴄᴀᴛɪᴏɴ ᴍᴀᴅᴇ ʙʏ ᴍᴇ ᴡʜᴇʀᴇ ʏᴏᴜ ᴄᴀɴ ᴄʜᴇᴄᴋ ᴠᴀᴄᴄɪɴᴇ ᴡʜɪᴄʜ ɪꜱ ᴀᴠᴀɪʟᴀʙʟᴇ ɴᴇᴀʀ ʏᴏᴜ 💻 🎯🚀 
 
 
-## Features of Music Hoster 
+## Features of E-Commerce-Website
  Currently we support the following features :
-* Rest API
-* Details of Vaccine Available
+* Signup and Login 
+* Add Product
+* Likes and Comment 
+* JWT authentication and authorization
+* Add to Cart
 
 ## Technology Stack
 
-**Frontend:** HTML ,CSS ,Javascript
+**Frontend:** HTML ,CSS ,Javascript, EJS
 
-**Backend:** Cowin API
+**Backend:** Node Js
+
+**Database:** MondoDB
 
 
 
