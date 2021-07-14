@@ -1,5 +1,3 @@
-
-
 <br/>
 <p align="center">
     <a href="https://iread.ga">
@@ -13,8 +11,7 @@
 <div align="center">
 <a href="https://github.com/Ashish2030/E-Commerce-Website-Using-NodeJS"><img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103"></a>
 <a href="https://github.com/Ashish2030/E-Commerce-Website-Using-NodeJS"><img src="https://img.shields.io/badge/Built%20by-developers%20%3C%2F%3E-0059b3"></a>
-<a href="https://reactjs.org/docs/"><img src="https://img.shields.io/badge/Made%20with-Javascript-brightgreen.svg"></a><br>
-    
+<a href="https://reactjs.org/docs/"><img src="https://img.shields.io/badge/Made%20with-Node JS-brightgreen.svg"></a><br/>
 <a href="https://github.com/Ashish2030/E-Commerce-Website-Using-NodeJS"><img src="https://img.shields.io/static/v1.svg?label=Contributions&message=Welcome&color=yellow"></a>
 <a href="https://github.com/vigneshshettyin/"><img src="https://img.shields.io/badge/Maintained%3F-yes-brightgreen.svg?v=103"></a>
 <a href="https://github.com/Ashish2030/E-Commerce-Website-Using-NodeJS"><img src="https://img.shields.io/github/repo-size/Ashish2030/E-Commerce-Website-Using-NodeJS.svg?label=Repo%20size&style=flat"></a>
@@ -75,10 +72,10 @@ https://user-images.githubusercontent.com/61516051/124337667-6d120280-dbc1-11eb-
   * Fork the Repository
   * Clone the repository to your local machine
    
-    `$ git clone https://github.com/<your-github-username>/Vaccine-near-me-Using-Cowin-Government-API`
-  * Change directory to 'Vaccine-near-me-Using-Cowin-Government-API'
+    `$ git clone https://github.com/<your-github-username>/E-Commerce-Website-Using-NodeJS`
+  * Change directory to 'E-Commerce-Website-Using-NodeJS'
   
-    `$ cd Vaccine-near-me-Using-Cowin-Government-API`
+    `$ cd E-Commerce-Website-Using-NodeJS`
   * Add a reference to the original repository
     
     `$ git remote add upstream https://github.com/Ashish2030/E-Commerce-Website-Using-NodeJS.git`
