@@ -12,13 +12,12 @@
 <a href="https://github.com/Ashish2030/E-Commerce-Website-Using-NodeJS"><img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103"></a>
 <a href="https://github.com/Ashish2030/E-Commerce-Website-Using-NodeJS"><img src="https://img.shields.io/badge/Built%20by-developers%20%3C%2F%3E-0059b3"></a>
 <a href="https://reactjs.org/docs/"><img src="https://img.shields.io/badge/Made%20with-Node JS-brightgreen.svg"></a><br/>
-	<br>
 <a href="https://github.com/Ashish2030/E-Commerce-Website-Using-NodeJS"><img src="https://img.shields.io/static/v1.svg?label=Contributions&message=Welcome&color=yellow"></a>
 <a href="https://github.com/vigneshshettyin/"><img src="https://img.shields.io/badge/Maintained%3F-yes-brightgreen.svg?v=103"></a>
 <a href="https://github.com/Ashish2030/E-Commerce-Website-Using-NodeJS"><img src="https://img.shields.io/github/repo-size/Ashish2030/E-Commerce-Website-Using-NodeJS.svg?label=Repo%20size&style=flat"></a>
 <a href="https://github.com/Ashish2030/E-Commerce-Website-Using-NodeJS"><img src="https://img.shields.io/tokei/lines/github/Ashish2030/E-Commerce-Website-Using-NodeJS?color=yellow&label=Lines%20of%20Code"></a>
 <a href="https://github.com/Ashish2030/E-Commerce-Website-Using-NodeJS/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MPL_2.0-brightgreen.svg?v=103"></a>
-<a href="https://github.com/Ashish2030/E-Commerce-Website-Using-NodeJS/watchers"><img src="https://img.shields.io/github/watchers/Ashish2030/E-Commerce-Website-Using-NodeJS"></a><br/><br/>
+<a href="https://github.com/Ashish2030/E-Commerce-Website-Using-NodeJS/watchers"><img src="https://img.shields.io/github/watchers/Ashish2030/E-Commerce-Website-Using-NodeJS"></a><br/>
 <a href="https://github.com/Ashish2030/E-Commerce-Website-Using-NodeJS/graphs/contributors"><img src="https://img.shields.io/github/contributors/Ashish2030/E-Commerce-Website-Using-NodeJS?color=brightgreen"></a>
 <a href="https://github.com/Ashish2030/E-Commerce-Website-Using-NodeJS/stargazers"><img src="https://img.shields.io/github/stars/Ashish2030/E-Commerce-Website-Using-NodeJS?color=0059b3"></a>
 <a href="https://github.com/Ashish2030/E-Commerce-Website-Using-NodeJS/network/members"><img src="https://img.shields.io/github/forks/Ashish2030/E-Commerce-Website-Using-NodeJS?color=yellow"></a>
