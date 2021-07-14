@@ -1,7 +1,7 @@
 <br/>
 <p align="center">
     <a href="https://iread.ga">
-        <img src="https://user-images.githubusercontent.com/61516051/125701930-53fa8c4a-ee03-405c-b48b-27ca62490311.png" width="35%">
+        <img src="https://user-images.githubusercontent.com/61516051/125701930-53fa8c4a-ee03-405c-b48b-27ca62490311.png" width="45%">
     </a>
 </p>
 <h1 align="center"> 
