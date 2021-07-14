@@ -28,7 +28,7 @@
 	<a href="https://github.com/Ashish2030/E-Commerce-Website-Using-NodeJS/commits/master"><img src="https://img.shields.io/github/last-commit/Ashish2030/E-Commerce-Website-Using-NodeJS"></a> 
 <a href="https://github.com/Ashish2030/E-Commerce-Website-Using-NodeJS/pulls?q=is%3Apr+is%3Aclosed"><img src="https://img.shields.io/github/issues-pr-closed-raw/Ashish2030/E-Commerce-Website-Using-NodeJS?color=brightgreen"></a> 
 </div>
-:octocat:🌟ᴛʜɪꜱ ɪꜱ ᴀ ᴀᴘᴘʟɪᴄᴀᴛɪᴏɴ ᴍᴀᴅᴇ ʙʏ ᴍᴇ ᴡʜᴇʀᴇ ʏᴏᴜ ᴄᴀɴ ᴄʜᴇᴄᴋ ᴠᴀᴄᴄɪɴᴇ ᴡʜɪᴄʜ ɪꜱ ᴀᴠᴀɪʟᴀʙʟᴇ ɴᴇᴀʀ ʏᴏᴜ 💻 🎯🚀 
+:octocat: 🌟 💻 ᴛʜɪꜱ ɪꜱ ᴀ ᴍᴏɴᴏʟɪᴛʜɪᴄ ᴀᴘᴘʟɪᴄᴀᴛɪᴏɴ ᴜꜱɪɴɢ ɴᴏᴅᴇ ᴊꜱ ᴀꜱ ᴀ ʙᴀᴄᴋᴇɴᴅ ᴛᴇᴄʜɴᴏʟᴏɢʏ 🎯 🚀<p> 
 
 
 ## Features of E-Commerce-Website
